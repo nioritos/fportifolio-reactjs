@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.hyperlink-hdnav {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.contain-list {
+    display: flex;
+    align-items: center;
+}
+
+.hy-list {
+    margin: 0 1rem;
+}
+
+.hyperlink-hdnav {
+    font-weight: 500;
+    color: var(--color-hyperlink-nav);
+    
+}
+
+.hyperlink-hdnav:hover,.Logo:hover {
+    transition: 0.5s;
+    opacity: 1;
+}
