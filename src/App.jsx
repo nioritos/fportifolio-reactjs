@@ -1,10 +1,14 @@
 import './css/App.css'
-import Header from './componets/header/Header'
+import Head   from './componets/header/Header';
+import Home   from './componets/home/Home';
 
 function App() {
 
   return (
-      <Header/>
+    <>
+      <Head/>
+        <Home/>
+    </>
 
   )
 }

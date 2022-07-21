@@ -2,9 +2,10 @@ import '../../css/Header.css'
 
 function Header() {
     return(
+        <>
         <header className="header ">
             <h1 className='Logo'>
-                <strong>NIOR</strong>
+                
             </h1>
             <nav className="navigator ">
                 <ul className="contain-list ">
@@ -18,11 +19,16 @@ function Header() {
                         <a href="#" className="hyperlink-hdnav">Projects</a>
                     </li>
                     <li className="hy-list">
+                        <a href="#" className="hyperlink-hdnav">Services</a>
+                    </li>
+                    <li className="hy-list">
                         <a href="#" className="hyperlink-hdnav">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        </>
+
     )
 };
 

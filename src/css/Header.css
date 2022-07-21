@@ -1,14 +1,9 @@
 .header{
     width: 100%;
-
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.Logo {
-    opacity: 0.85;
-    cursor: pointer;
 }
 
 .hyperlink-hdnav {
@@ -27,11 +22,14 @@
 
 .hyperlink-hdnav {
     font-weight: 500;
+    font-size: 18px;
     color: var(--color-hyperlink-nav);
+    color: #fff;
     
 }
 
-.hyperlink-hdnav:hover,.Logo:hover {
+.hyperlink-hdnav:hover {
     transition: 0.5s;
     opacity: 1;
+    color: var(--color-theme);
 }
