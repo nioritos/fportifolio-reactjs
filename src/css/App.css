@@ -1,10 +1,23 @@
+body, html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 #root{
     width: 100%;
-    margin: 0 3rem;
+    margin: 0 5rem;
     
 }
 
 ul,li,a {
     text-decoration: none;
     list-style: none;
+}
+.divider-sections{ 
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    opacity: 0.7;
+    margin-bottom: 5rem;
+
 }

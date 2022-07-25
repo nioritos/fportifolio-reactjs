@@ -10,19 +10,19 @@ function Header() {
             <nav className="navigator ">
                 <ul className="contain-list ">
                     <li className="hy-list">
-                        <a href="#" className="hyperlink-hdnav">Home</a>
+                        <a href="#home" className="hyperlink-hdnav">Home</a>
                     </li>
                     <li className="hy-list">
-                        <a href="#" className="hyperlink-hdnav">Skills</a>
+                        <a href="#about-me" className="hyperlink-hdnav">About me</a>
                     </li>
                     <li className="hy-list">
-                        <a href="#" className="hyperlink-hdnav">Projects</a>
+                        <a href="#projects" className="hyperlink-hdnav">Projects</a>
                     </li>
                     <li className="hy-list">
-                        <a href="#" className="hyperlink-hdnav">Services</a>
+                        <a href="#services" className="hyperlink-hdnav">Services</a>
                     </li>
                     <li className="hy-list">
-                        <a href="#" className="hyperlink-hdnav">Contact</a>
+                        <a href="#skills" className="hyperlink-hdnav">Minha Skills</a>
                     </li>
                 </ul>
             </nav>

@@ -4,9 +4,9 @@ import ImageHome from './image_home.svg';
 function Home() {
     return(
         <>
-        <section className="home">
+        <section id="home">
             <div className="text-home">
-                <h1 className="title-home">Olá, eu sou o Junior Guimarães, <br /> ou pode me chamar de  ,<strong> nioritos</strong>.</h1>
+                <h1 className="title-home">Olá, sou o Junior Guimarães, <br /> ou pode me chamar de,<strong> nioritos</strong>.</h1>
                 <p className="description-home">Developer Web Jr. TS,JS,JSX</p>
                 <div className="hyperlink-container">
                     <a href="" className="donwload-cv">
