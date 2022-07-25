@@ -6,11 +6,6 @@ import TS from '../../assets/svg/typescript.svg';
 import JSX from '../../assets/svg/reactjs.svg';
 import JS from '../../assets/svg/javascript.svg';
 
-
-function showAboutSkill(message) {
-
-}
-
 function Skills() {
     return(
         <>
