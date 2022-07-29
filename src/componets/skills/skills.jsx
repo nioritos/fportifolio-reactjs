@@ -5,8 +5,12 @@ import CSS from '../../assets/svg/css3.svg';
 import TS from '../../assets/svg/typescript.svg';
 import JSX from '../../assets/svg/reactjs.svg';
 import JS from '../../assets/svg/javascript.svg';
+import React, { useState } from 'react';
+
 
 function Skills() {
+    let [msgSk, setMsgSk] = useState('');
+
     return(
         <>
             <section id="skills">
@@ -17,25 +21,25 @@ function Skills() {
 
                 <div className="skills-area">
                     <h3 className="show-hover">
-                        <strong>*passe o mouse para ver sobre*</strong>
+                        <strong>{msgSk}</strong>
                     </h3>
                     <ul className="cards-skills">
-                        <li>
+                        <li onMouseEnter={() => setMsgSk(msgSk = 'Hyper Text Markup Language é uma linguagem de marcação de texto')}>
                             <img src={HTML} alt="ícone de skill em HTML" />
                         </li>
-                        <li>
+                        <li onMouseEnter={() => setMsgSk(msgSk = 'Cascading Style Sheets é uma linguagem de estilização.')}>
                             <img src={CSS} alt="ícone de skill em CSS" />
                         </li>
-                        <li>
+                        <li onMouseEnter={() => setMsgSk(msgSk = 'Javascript é uma linguagem de programação com tipagem dinâmica.')}>
                             <img src={JS} alt="ícone de skill em Javascript" />
                         </li>
-                        <li>
+                        <li onMouseEnter={() => setMsgSk(msgSk = 'Typescript é uma linguagem de programação com tipagem estática.')}>
                             <img src={TS} alt="ícone de skill em Typescript" />
                         </li>
-                        <li>
+                        <li onMouseEnter={() => setMsgSk(msgSk = 'ReactJS é uma biblioteca Javascript, usada para construir interfaces do usuário (UI).')}>
                             <img src={JSX} alt="ícone de skill em ReactJS" />
                         </li>
-                        <li>
+                        <li onMouseEnter={() => setMsgSk(msgSk = 'Figma é uma ferramente de design, seja para UX ou UI design.')}>
                             <img src={Figma} alt="ícone de skill em Figma" />
                         </li>
                     </ul>
