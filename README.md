@@ -6,9 +6,10 @@
 
 ### It project has a objetive to show my profile, knowledges, skills, projects...
 
-### What do it needs to run 
+ What do it needs to run 
 
-  ``` $ cd ./fporifolio-reactjs-main
+  ``` 
+      $ cd ./fporifolio-reactjs-main
       $ npm install
       $ npm run dev
   ```
